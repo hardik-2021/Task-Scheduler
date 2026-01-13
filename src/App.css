@@ -1,0 +1,230 @@
+body{
+background-color: #1D2635;
+}
+.App {
+  text-align: center;
+}
+
+.main{
+  display:block; 
+  color: #333333;
+  height: 100%;
+  width: 100%;
+  /* background-color: grey; */
+  justify-content: space-between;
+}
+.navbar{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #12161C;
+  height: 50px;
+  width: 100vw;
+  /* position:fixed; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.pos{
+  position: fixed;
+}
+.con{
+  margin-left: 10vw;
+  width: 80vw;
+  padding-top: 55px;
+  padding-bottom: 10px;
+  background-color: #DFDEE2;
+  color: #6C787F;
+}
+.btn-danger{
+  background-color:  #AF4139;
+}
+.btn-success{
+  background-color:  #2F5F8F;
+}
+
+.todo{
+  width: 70vw;
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  margin-top: 2vh;
+  height: 50px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+   background-color:#DFDEE2;
+   box-shadow: 0 4px 10px #00000033;
+  border-radius: 8px;
+
+}
+.todo-title{
+  width: 75%;
+  padding-left: 1vw;
+}
+.todo-done{
+ width: 70vw;
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  color: #bac7ce;
+  margin-top: 2vh;
+  height: 50px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+   box-shadow: 0 4px 10px #00000033;
+  border-radius: 8px;
+  background-color: #1D2635;
+}
+
+.addtodo{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color:#2D3C4D;
+  margin-top: 0vw;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  /* background-color: #12161C; */
+  width: 100%;
+  margin-left: 0vw;
+  height: 100px;
+  /* position: fixed; */
+}
+.no-todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.status{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 5vw;
+  border-radius: 6px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-title{
+
+  width: 70vw;
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  margin-top: 2vh;
+  height: 50px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+   background-color:#DFDEE2;
+   box-shadow: 0 4px 10px #00000033;
+  border-radius: 8px;
+
+/* width: 100%;
+height: 50px;
+background-color: #DFDEE2;
+display:flex ;
+flex-direction: row;
+align-items: center; */
+}
+
+.main-title-title{
+  padding-left: 1vw;
+  width: 75%;
+}
+
+.main-desc{
+color: #bac7ce;
+width: 70vw;
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  height: 50px;
+  display:flex;
+  /* flex-direction: row; */
+  align-items:center;
+  /* justify-content: space-evenly; */
+   /* background-color:#DFDEE2; */
+   box-shadow: 0 4px 10px #00000033;
+  border-radius: 8px;
+
+  /* width: 100%; */
+height: auto ;
+/* padding-left: 1vw; */
+background-color: #1D2635;
+/* display:flex ;
+align-items: center; */
+}
+
+.margin-des{
+  padding-left: 1vw;
+}
+
+.main-todo{
+  width: 80vw;
+  height: auto;
+  /* padding: 10px;
+  background-color: #11b743; */
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title-done{
+  width: 70vw;
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  color: #bac7ce;
+  margin-top: 2vh;
+  height: 50px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+   box-shadow: 0 4px 10px #00000033;
+  border-radius: 8px;
+  background-color: #1D2635;
+}
+
+.form-group{
+  height: 30px;
+  width: 270px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+}
