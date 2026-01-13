@@ -12,7 +12,8 @@ Task Scheduler is a responsive React.js task management app that lets users crea
 
 
 # Future Enhancements
-- Add localStorage or backend support for data persistence
+- Backend support for data persistence
 - Task prioritization and deadlines
 - Edit existing tasks
-- Improved UI/UX
+- Improved UI/UX
+- Add a percentage bar displaying the percent of tasks completed
